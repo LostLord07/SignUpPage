@@ -7,18 +7,19 @@
 .outer-box{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to top left,#00F5FF , #C1EDDC  );
+    background: linear-gradient(to top left,#F9F7F7 , #222831  );
  }
 
 .inner-box{
-   background-color: azure;
+   background-color: #635666;
+   color: white;
    position: relative;
    top: 40%;
    transform: translateY(-50%);
    margin: 0 auto;
    height: 400px;
    width: 350px;
-   border-radius: 2px;
+   border-radius: 4px;
    border-color: black;
    box-shadow: 2px 2px 9px #000;
 }
@@ -56,13 +57,13 @@ input{
 }
 
 .create-account:hover{
-    background-color: #86f2b8;
+    background-color: #1B262C;
 }
 
 .top-circle{
     height: 180px;
     width: 180px;
-    background: linear-gradient(to top left, #EAF6F6,#92d3d3);
+    background: linear-gradient(to top left, #EAF6F6, #111);
     border-radius: 100%;
     position: absolute;
     top: 150px;
@@ -72,7 +73,7 @@ input{
 .bottom-circle{
     height: 180px;
     width: 180px;
-    background: linear-gradient(to top left, #EAF6F6,#92d3d3);
+    background: linear-gradient(to top left, #EAF6F6,#111);
     border-radius: 100%;
     position: absolute;
     bottom: 280px;
